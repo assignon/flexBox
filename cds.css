@@ -1,0 +1,187 @@
+body{
+    
+    background-color: black;
+}
+header{
+    
+    width: 100%;
+}
+
+.titre{
+    
+    text-align: center;
+    font-size: 40px;
+    color: blue;
+    margin: 30px;
+    
+}
+#contener{
+    
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+.cover{
+    
+    border: 2px groove black;
+    border-radius: 4px;
+    width: 300px;
+    height: auto;
+    padding: 20px;
+    flex: 1 0 20%;
+    display: flex;
+    flex-direction: column;
+    margin: 7px;
+    background-color: #00D636;
+}
+
+.cover:hover{
+    
+    border: 2px groove #00D636;
+    background-color: black;
+}
+
+.cover:hover h1{
+    
+   color: #00D636;
+}
+
+.cover:hover img{
+    
+  border: 2px solid #00D636;
+    padding: 3px;
+    background-color: #00D636;
+}
+
+.cover h1{
+    text-align: center;
+   
+   
+}
+
+ .cover .titel{
+    
+    font-size: 25px;
+    color: red;
+     list-style: none;
+     padding-top: 5px;
+     padding-bottom: 5px;
+}
+
+ ul li{
+    color: white;
+     margin-right: 10px;
+    position: relative;
+    right: 20px;
+     bottom: 10px;
+     font-size: 18px;
+    
+}
+
+
+ .informatie{
+    
+    color: white;
+    
+     font-size: 18px;
+}
+
+.cover .para{
+    
+    color: white;
+}
+
+.cover img{
+    
+    border: 2px solid black;
+    padding: 3px;
+    background-color: black;
+}
+
+.cover button:last-child{
+    border: 2px solid black;
+    border-radius: 4px;
+    background-color: #00D636;
+    font-size: 15px;
+    margin: auto auto 0 auto;
+    width: 100px;
+    height: 40px;
+    cursor: pointer;
+    color: white;
+}
+
+.cover button:hover{
+    
+    border: 2px solid #00D636;
+    background-color: black;
+    color: #00D636;
+}
+
+.start{
+    
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: #00D636;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    position: relative;
+    top: 70px;
+    left: 20px;
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+   
+}
+
+.start:hover{
+    
+    color: #00D636;
+    border: 2px solid #00D636;
+    background-color: black;
+}
+
+.page3{
+    
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: #00D636;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    position: relative;
+    top: -50px;
+    left: 1195px;
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+   
+}
+
+.page3:hover{
+    
+    color: #00D636;
+    border: 2px solid #00D636;
+    background-color: black;
+}
+
+#validatie{
+        width: 100px;
+        height: auto;
+        margin-left: 550px;
+        padding-top: 80px;
+        display: flex;
+        flex-direction: row;
+    }
+    
+footer{
+    width: 100%;
+    height: 150px;
+    background-color: #00D636;
+   
+}
+
+
+
+
