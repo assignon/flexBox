@@ -1,0 +1,535 @@
+body, html{
+    
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    width: 100%;
+    height: 150px;
+    border: 1px solid #00D636;;
+    background-color: #00D636;
+}
+
+header h1{
+    
+    font-size: 35px;
+    color: red;
+    text-align: center;
+}
+
+header a{
+    
+    border: 2px solid black;
+    border-radius: 5px;
+   /* width: 100px;
+    height: 40px;*/
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 20px;
+    color: black;
+    background-color: #00D636;
+    text-decoration: none;
+   
+        
+}
+
+header a:hover{
+    
+    background-color: black;
+    border: 2px solid #00D636;
+    color: #00D636;
+}
+
+main{
+    
+    border: 0px solid white;
+    
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+}
+
+main article{
+    
+    width: 60%;
+    height: 200px;
+    background-color: deeppink;
+    border: 2px solid deeppink;
+}
+
+main article h1{
+    
+    text-align: center;
+    font-size: 30px;
+    color: #00D636;
+}
+
+main article p{
+    
+    padding: 15px;
+    padding-bottom: 10px;
+    padding-top: 5px;
+    color: white;
+    font-size: 17px;
+}
+
+
+main aside{
+    
+    width: 20%;
+    height: 200px;
+    
+}
+
+ #aside1{
+
+     border: 2px solid darkorange;
+     background-color:darkorange;
+}
+
+#aside1 input{
+    
+    border: 2px solid #00D636;
+    border-radius: 5px;
+    background-color: black;
+    color: #00D636;
+    font-size: 16px;
+    height: 30px;
+    /*margin-top: 30%;*/
+}
+
+#zoek{
+    margin-top: 30%;
+    margin-left: 10%;
+}
+
+#butt{
+    margin-top: 5%;
+        margin-left: 40%;
+    cursor: pointer;
+}
+
+#aside2{
+
+     border: 2px solid aquamarine;
+     background-color:aquamarine;
+}
+
+footer{
+    width: 100%;
+    height: 150px;
+    background-color: black;
+   
+}
+
+@media screen and (min-width :250px){
+    
+    main{
+        
+        display: flex;
+        flex-direction: column;
+    }
+    
+    main article{
+    
+    width: 100%;
+    height: 150px;
+    background-color: deeppink;
+    border: 2px solid deeppink;
+}
+    
+    main article p{
+    
+    width: 85%;
+    height: 85px;
+        overflow: auto;
+    /*padding: 7px;*/
+    position: relative;
+        bottom: 45px;
+        
+ }
+    
+     main article h1{
+         
+         position: relative;
+         bottom: 20px;
+         
+    }
+    
+    main aside{
+        
+        width: 100%;
+        height: 50px;
+    }
+    
+    #zoek{
+    margin-top: 3%;
+    margin-left: 10%;
+}
+
+#butt{
+    margin-top: -15%;
+        margin-left: 70%;
+    position: relative;
+    bottom: 23px;
+    cursor: pointer;
+}
+    
+   header a{
+    
+    padding: 7px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 15px;
+    position: relative;
+       left: 70px;
+        
+}
+    
+    #validatie{
+        width: 100px;
+        height: auto;
+        margin-left: 60px;
+        padding-top: 40px;
+        display: flex;
+        flex-direction: row;
+    }
+    
+footer{
+    width: 100%;
+    height: 150px;
+    background-color: black;
+   
+}
+
+}
+
+@media screen and (min-width :360px){
+    
+    
+    main{
+        
+        display: flex;
+        flex-direction: column;
+    }
+    
+    main article{
+    
+    width: 100%;
+    height: 170px;
+    background-color: deeppink;
+    border: 2px solid deeppink;
+}
+    
+    main article p{
+    
+    width: 90%;
+    height: 100px;
+        overflow: auto;
+    /*padding: 7px;*/
+    position: relative;
+        bottom: 45px;
+        
+ }
+    
+     main article h1{
+         
+         position: relative;
+         bottom: 20px;
+         
+    }
+    
+    main aside{
+        
+        width: 100%;
+        height: 70px;
+    }
+    
+    #zoek{
+    margin-top: 3%;
+    margin-left: 10%;
+}
+
+#butt{
+    margin-top: -15%;
+        margin-left: 60%;
+    position: relative;
+    bottom: 23px;
+    cursor: pointer;
+}
+    
+   header a{
+    
+    padding: 7px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 15px;
+    position: relative;
+       left: 70px;
+        
+}
+
+    #validatie{
+        width: 100px;
+        height: auto;
+        margin-left: 70px;
+        padding-top: 100px;
+        display: flex;
+        flex-direction: row;
+    }
+    
+footer{
+    width: 100%;
+    height: 150px;
+    background-color: black;
+   
+}
+    
+}
+    
+
+@media screen and (min-width :768px){
+    
+    
+    main{
+        
+        display: flex;
+        flex-direction: column;
+    }
+    
+    main article{
+    
+    width: 100%;
+    height: 200px;
+    background-color: deeppink;
+    border: 2px solid deeppink;
+}
+    
+    main article p{
+    
+    width: 90%;
+    height: 170px;
+        overflow: auto;
+    /*padding: 7px;*/
+    position: relative;
+        bottom: 45px;
+        
+ }
+    
+    
+    main aside{
+        
+        width: 100%;
+        height: 100px;
+    }
+    
+    #zoek{
+    margin-top: 3%;
+    margin-left: 10%;
+        
+}
+
+#butt{
+    margin-top: -15%;
+    margin-left: 34%;
+    position: relative;
+    bottom: 30px;
+    cursor: pointer;
+}
+    
+    
+    #aside1 input{
+    
+    position: relative;
+        left: 170px;
+    height: 40px;
+    /*margin-top: 30%;*/
+}
+   header a{
+    
+    padding: 8px;
+    padding-left: 17px;
+    padding-right: 17px;
+    font-size: 17px;
+    
+       
+        
+}
+
+    #validatie{
+        width: 100px;
+        height: auto;
+        margin-left: 230px;
+        padding-top: 100px;
+        display: flex;
+        flex-direction: row;
+    }
+    
+footer{
+    width: 100%;
+    height: 150px;
+    background-color: black;
+   
+}
+    
+}
+    
+ @media screen and (min-width :900px){
+     
+     
+     #butt{
+    
+    margin-left: 28%;
+    
+   
+}
+}
+    
+@media screen and (min-width :1280px){
+     
+     body, html{
+    
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    width: 100%;
+    height: 150px;
+    border: 1px solid #00D636;;
+    background-color: #00D636;
+}
+
+header h1{
+    
+    font-size: 35px;
+    color: red;
+    text-align: center;
+}
+
+header a{
+    
+    border: 2px solid black;
+    border-radius: 5px;
+   /* width: 100px;
+    height: 40px;*/
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 20px;
+    color: black;
+    background-color: #00D636;
+    text-decoration: none;
+   
+        
+}
+
+header a:hover{
+    
+    background-color: black;
+    border: 2px solid #00D636;
+    color: #00D636;
+}
+
+main{
+    
+    border: 0px solid white;
+    
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+}
+
+main article{
+    
+    width: 60%;
+    height: 200px;
+    background-color: deeppink;
+    border: 2px solid deeppink;
+}
+
+main article h1{
+    
+    text-align: center;
+    font-size: 30px;
+    color: #00D636;
+}
+
+main article p{
+    
+    padding: 15px;
+    padding-bottom: 10px;
+    padding-top: 5px;
+    color: white;
+    font-size: 17px;
+}
+
+
+main aside{
+    
+    width: 20%;
+    height: 200px;
+    
+}
+
+ #aside1{
+
+     border: 2px solid darkorange;
+     background-color:darkorange;
+}
+
+#aside1 input{
+    
+    border: 2px solid #00D636;
+    border-radius: 5px;
+    background-color: black;
+    color: #00D636;
+    font-size: 16px;
+    height: 30px;
+   
+    /*margin-top: 30%;*/
+}
+
+#zoek{
+    margin-top: 30%;
+    margin-left: -50%;
+}
+
+#butt{
+    margin-top: 15%;
+        margin-left: -25%;
+    cursor: pointer;
+}
+
+#aside2{
+
+     border: 2px solid aquamarine;
+     background-color:aquamarine;
+}
+    #validatie{
+        width: 100px;
+        height: auto;
+        margin-left: 550px;
+        padding-top: 80px;
+        display: flex;
+        flex-direction: row;
+    }
+    
+footer{
+    width: 100%;
+    height: 150px;
+    background-color: black;
+   
+}
+
+   
+  }
+}
+    
+
+
+
